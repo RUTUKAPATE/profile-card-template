@@ -1,5 +1,3 @@
--- import: <user_name>.github.io/<repo_name>/assets
-
 -- ftd.type dtype:
 weight: 400
 font-family: Arial
@@ -12,16 +10,17 @@ string github-url:
 string linkedin-url:
 string instagram-url:
 string twitter-url:
-ftd.image-src bg-card:
 ftd.image-src avatar:
 optional ftd.responsive-type role:
 
 -- ftd.column:
 width: fill-container
 border-radius.px: 10
-overflow-x: hidden
+overflow: hidden
 
--- ftd.image: $wrapper.bg-card
+-- ftd.image:
+src: $assets.files.images.bg-pattern-card.svg
+alt: background
 
 -- ftd.column:
 align-content: center
@@ -54,64 +53,35 @@ color: #6A6F81
 -- ftd.row:
 border-top-width.px: 2
 border-color: #969696 
-spacing.fixed.px: 10
 margin-top.px: 30
 width: fill-container
 align-content: center
 
--- ftd.column:
-align-content: center
-margin-top.px: 30
-margin-bottom.px: 30
-width: fill-container
+;; -------------------------
+;; SOCIAL BUTTON STARTS
+;; -------------------------
 
--- ftd.image: $assets.files.images.github.png
-role: $dtype
-color: #6A6F81
-link: $wrapper.github-url
+-- social.wrapper:
+url: $wrapper.linkedin-url
+image: $assets.files.images.linkedin.png
 
--- end: ftd.column
+-- social.wrapper:
+url: $wrapper.github-url
+image: $assets.files.images.github.png
 
--- ftd.column:
-align-content: center
-margin-top.px: 30
-margin-bottom.px: 30
-width: fill-container
+-- social.wrapper:
+url: $wrapper.twitter-url
+image: $assets.files.images.twitter.png
 
--- ftd.image: $assets.files.images.linkedin.png
-role: $dtype
-color: #6A6F81
-link: $wrapper.linkedin-url
-
--- end: ftd.column
-
--- ftd.column:
-align-content: center
-margin-top.px: 30
-margin-bottom.px: 30
-width: fill-container
-
--- ftd.text: $assets.files.images.instagram.png
-role: $dtype
-color: #6A6F81
-link: $wrapper.instagram-url
-
--- end: ftd.column
-
--- ftd.column:
-align-content: center
-margin-top.px: 30
-margin-bottom.px: 30
-width: fill-container
-
--- ftd.text: $assets.files.images.twitter.png
-role: $dtype
-color: #6A6F81
-link: $wrapper.twitter-url
-
--- end: ftd.column
+-- social.wrapper:
+url: $wrapper.instagram-url
+image: $assets.files.images.instagram.png
 
 -- end: ftd.row
+
+;; -------------------------
+;; SOCIAL BUTTON ENDS
+;; -------------------------
 
 -- end: ftd.column
 
