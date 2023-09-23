@@ -1,5 +1,3 @@
--- import: rutukapate.github.io/profile-card-template
-
 -- ftd.desktop:
 
 -- ftd.container: 
@@ -31,10 +29,8 @@ z-index: 3
 margin-top.rem: -72
 border-radius.px: 10
 
--- profile.profile-card: Victor Crest
-bg-card: $assets.files.images.bg-pattern-card.svg
+-- profile.wrapper: Victor Crest
 avatar: $assets.files.images.image-victor.jpg
-no: 26
 city: London
 github-url: https://www.github.com/
 linkedin-url: https://www.linkedin.com/
@@ -82,8 +78,7 @@ z-index: 3
 margin-top.rem: -70
 border-radius.px: 10
 
--- profile.profile-card: Victor Crest
-bg-card: $assets.files.images.bg-pattern-card.svg
+-- profile.wrapper: Victor Crest
 avatar: $assets.files.images.image-victor.jpg
 city: London
 github-url: https://www.github.com/

@@ -9,6 +9,8 @@ favicon: /-/rutukapate.github.io/profile-card-template/favicon.ico
 
 -- fastn.auto-import: rutukapate.github.io/profile-card-template/FASTN/ds
 -- fastn.auto-import: rutukapate.github.io/profile-card-template/assets
+-- fastn.auto-import: rutukapate.github.io/profile-card-template/components/profile
+-- fastn.auto-import: rutukapate.github.io/profile-card-template/components/social
 -- fastn.auto-import: doc-site
 
 -- fastn.sitemap:
