@@ -1,25 +1,25 @@
 # Overview
 
-[doc-site](https://fastn-community.github.io/doc-site/) will help you create
-a beautiful documentation site in no time.
+[Profile-Card](https://rutukapate.github.io/profile-card-template/) will help you create
+a beautiful Profile-Card in no time.
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+It provides out-of-the-box profile-card features that can be used to create any
+kind of profile-card(personal, proffessional, etc).
 
 # Preview
 
-![doc-site](.github/assets/doc-site-example-dark.jpg)
+![Profile-Card](.github/assets/profile-card.png)
 
 ## Get Rolling
 
-[Click here](https://fastn-community.github.io/doc-site/) to learn how to use this template.
+[Click here](https://rutukapate.github.io/profile-card/) to learn how to use this template.
 
-# [Dive into the Docs](https://fastn-community.github.io/doc-site/)
+# [Dive into the Profile-Card](https://rutukapate.github.io/profile-card-template/)
 
 # See it in Action!
 
-Explore websites and projects that have utilized this component/template 
-**[here](https://fastn-community.github.io/doc-site/#dart-used-by)** for
+Explore skills and projects that have utilized this component/template 
+**[here](https://rutukapate.github.io/profile-card-template/)** for
 inspiration.
 
 ## fastn and Curious?
