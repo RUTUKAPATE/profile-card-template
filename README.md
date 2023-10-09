@@ -8,7 +8,7 @@ kind of profile-card(personal, proffessional, etc).
 
 # Preview
 
-![Profile-Card](.github/assets/desktop-design.jpg)
+![Profile-Card](assets/desktop-design.jpg)
 
 ## Get Rolling
 
