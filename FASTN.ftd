@@ -13,8 +13,3 @@ favicon: /-/<user_name>.github.io/<repo_name>/favicon.ico
 -- fastn.auto-import: <user_name>.github.io/<repo_name>/components/social
 -- fastn.auto-import: doc-site
 
--- fastn.sitemap:
-
-# Home: index.html
-
-- Right Sidebar Sample: /sidebar/
