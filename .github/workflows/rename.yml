@@ -35,4 +35,4 @@ jobs:
     permissions: write-all
     needs: [ rename-project ]
     uses: ./.github/workflows/deploy.yml
-feat: creafted profile component · RUTUKAPATE/profile-card-template@4b34400
+feat: creafted rename · RUTUKAPATE/profile-card-template@4b34400
